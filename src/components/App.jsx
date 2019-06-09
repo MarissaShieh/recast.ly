@@ -13,6 +13,7 @@ class App extends React.Component {
     };
     this.onVideoEntryClick = this.onVideoEntryClick.bind(this);
   }
+  
   onVideoEntryClick(video) {
     this.setState({
       currentVideo: video
